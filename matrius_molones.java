@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.time.LocalTime;
 
 public class MatricesMolonas {
 
@@ -15,6 +16,9 @@ public class MatricesMolonas {
 		else {
 			System.out.println("No es molona");
 		}
+
+		System.out.print("La hora a la que se ha executat el programa es:");
+		horaActual();
 
 		sc.close();
 
@@ -84,5 +88,8 @@ public class MatricesMolonas {
 
 	}
 
+	public static void horaActual{
+		System.out.println(LocalTime.now());
+	}	
 
 }
